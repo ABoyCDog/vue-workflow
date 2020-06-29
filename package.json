@@ -1,0 +1,43 @@
+{
+  "name": "vue-workflow-template",
+  "version": "0.1.0",
+  "private": false,
+  "author": "liuzq <178657263@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ABoyCDog/vue-workflow"
+  },
+  "keyword": [
+    "vue",
+    "workflow",
+    "工作流"
+  ],
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "main": "dist/vue-workflow.common.js",
+  "style": "dist/vue-workflow.css",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name vue-workflow ./src/index.js"
+  },
+  "dependencies": {
+    "vue": "^2.6.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "fibers": "^3.1.1",
+    "sass": "^1.16.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
